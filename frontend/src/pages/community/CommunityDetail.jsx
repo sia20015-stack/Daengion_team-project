@@ -353,17 +353,18 @@ function CommunityDetail() {
                   {menuOpen && (
                     <div
                       className="
+                        flex flex-col
                         absolute right-0 top-8 w-[80px]
                         bg-white rounded-xl shadow-md
                         border border-txtcolor-100
-                        overflow-hidden z-50
+                        z-50
                       "
                     >
                       <button
                         onClick={handleEdit}
                         className="
                           w-full px-4 py-3 text-center text-[14px] font-semibold 
-                          text-txtcolor-700 hover:bg-txtcolor-50
+                          rounded-xl text-txtcolor-700 hover:bg-txtcolor-50
                         "
                       >
                         수정
@@ -373,7 +374,7 @@ function CommunityDetail() {
                         onClick={handleDelete}
                         className="
                           w-full px-4 py-3 text-center text-[14px] font-semibold 
-                          text-red-500 hover:bg-red-50
+                          rounded-xl text-red-500 hover:bg-red-50
                         "
                       >
                         삭제
