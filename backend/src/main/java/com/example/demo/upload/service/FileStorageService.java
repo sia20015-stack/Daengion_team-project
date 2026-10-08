@@ -41,10 +41,20 @@ public class FileStorageService {
     private static final DateTimeFormatter DATE_PATH = DateTimeFormatter.ofPattern("yyyy/MM");
 
     /** 저장 루트 디렉터리. 기본값 {@code uploads}(작업 디렉터리 기준 상대경로). */
-    private final Path rootDir;
+    // private final Path rootDir;
 
-    public FileStorageService(@Value("${app.upload.dir:uploads}") String uploadDir) {
+    // public FileStorageService(@Value("${app.upload.dir:uploads}") String uploadDir) {
+    //     this.rootDir = Paths.get(uploadDir).toAbsolutePath().normalize();
+    // }
+    private final Path rootDir;
+    private final String baseUrl;
+
+    public FileStorageService(
+            @Value("${app.upload.dir:uploads}") String uploadDir,
+            @Value("${app.base-url}") String baseUrl
+    ) {
         this.rootDir = Paths.get(uploadDir).toAbsolutePath().normalize();
+        this.baseUrl = baseUrl;
     }
 
     /**
@@ -68,7 +78,13 @@ public class FileStorageService {
             throw new BusinessException(ErrorCode.INTERNAL_ERROR);
         }
 
-        return URL_PREFIX + "/" + datePath + "/" + filename;
+        // return URL_PREFIX + "/" + datePath + "/" + filename;
+        return baseUrl
+        + URL_PREFIX
+        + "/"
+        + datePath
+        + "/"
+        + filename;
     }
 
     /** 파일 존재·크기·확장자·content-type 검증. 통과 시 정규화된 확장자(소문자) 반환. */
