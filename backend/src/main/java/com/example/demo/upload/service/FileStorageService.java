@@ -148,6 +148,7 @@ import java.util.Set;
  */
 @Service
 public class FileStorageService {
+    public static final String URL_PREFIX = "/uploads";
 
     private static final long MAX_SIZE_BYTES = 5 * 1024 * 1024;
 
