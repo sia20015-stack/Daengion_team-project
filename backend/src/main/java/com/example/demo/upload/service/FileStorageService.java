@@ -140,6 +140,9 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.Set;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 /**
  * 업로드 이미지의 Cloudinary 저장.
  *
@@ -159,6 +162,9 @@ public class FileStorageService {
             Set.of("image/jpeg", "image/png");
 
     private final Cloudinary cloudinary;
+
+    private static final Logger log =
+        LoggerFactory.getLogger(FileStorageService.class);
 
     public FileStorageService(
             @Value("${CLOUDINARY_CLOUD_NAME}") String cloudName,
@@ -201,6 +207,7 @@ public class FileStorageService {
             return url;
 
         } catch (Exception e) {
+            log.error("Cloudinary 이미지 업로드 실패", e);
             throw new BusinessException(ErrorCode.INTERNAL_ERROR);
         }
     }
