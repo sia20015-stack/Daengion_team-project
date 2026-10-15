@@ -40,57 +40,57 @@
 
 ## 홈 화면
 
-![홈 화면](./댕기온 서비스 화면/home.png)
+![홈 화면](./댕기온%20서비스%20화면/home.png)
 
 ---
 
 ## 반려견 프로필
 
-![반려견 프로필 목록](./댕기온 서비스 화면/dog-profile-list.png)
+![반려견 프로필 목록](./댕기온%20서비스%20화면/dog-profile-list.png)
 
-![반려견 프로필 등록](./댕기온 서비스 화면/dog-profile-create.png)
+![반려견 프로필 등록](./댕기온%20서비스%20화면/dog-profile-create.png)
 
-![반려견 프로필 상세](./댕기온 서비스 화면/dog-profile-detail.png)
+![반려견 프로필 상세](./댕기온%20서비스%20화면/dog-profile-detail.png)
 
 ---
 
 ## 산책 지수
 
-![산책 지수](./댕기온 서비스 화면/walking-index.png)
+![산책 지수](./댕기온%20서비스%20화면/walking-index.png)
 
 ---
 
 ## 산책 기록
 
-![산책 기록 - 반려견 선택](./댕기온 서비스 화면/walk-dog-select.png)
+![산책 기록 - 반려견 선택](./댕기온%20서비스%20화면/walk-dog-select.png)
 
-![산책 기록 - 산책 중](./댕기온 서비스 화면/walk-in-progress.png)
+![산책 기록 - 산책 중](./댕기온%20서비스%20화면/walk-in-progress.png)
 
-![산책 기록 - 산책 기록 저장](./댕기온 서비스 화면/walk-record-save.png)
+![산책 기록 - 산책 기록 저장](./댕기온%20서비스%20화면/walk-record-save.png)
 
-![산책 캘린더](./댕기온 서비스 화면/walk-calendar.png)
+![산책 캘린더](./댕기온%20서비스%20화면/walk-calendar.png)
 
-![주간월간 리포트](./댕기온 서비스 화면/walk-report.png)
+![주간월간 리포트](./댕기온%20서비스%20화면/walk-report.png)
 
 ---
 
 ## 커뮤니티
 
-![커뮤니티 목록](./댕기온 서비스 화면/community-list.png)
+![커뮤니티 목록](./댕기온%20서비스%20화면/community-list.png)
 
-![커뮤니티 작성](./댕기온 서비스 화면/community-create.png)
+![커뮤니티 작성](./댕기온%20서비스%20화면/community-create.png)
 
-![커뮤니티 상세](./댕기온 서비스 화면/community-detail.png)
+![커뮤니티 상세](./댕기온%20서비스%20화면/community-detail.png)
 
-![커뮤니티 활동 알림](./댕기온 서비스 화면/community-notifications.png)
+![커뮤니티 활동 알림](./댕기온%20서비스%20화면/community-notifications.png)
 
 ---
 
 ## 견종백과
 
-![견종백과 목록](./댕기온 서비스 화면/breed-guide-list.png)
+![견종백과 목록](./댕기온%20서비스%20화면/breed-guide-list.png)
 
-![견종백과 상세](./댕기온 서비스 화면/breed-guide-detail.png)
+![견종백과 상세](./댕기온%20서비스%20화면/breed-guide-detail.png)
 
 ---
 
